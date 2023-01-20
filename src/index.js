@@ -7,6 +7,6 @@ import forecast from "./data/forecast.json";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App location={forecast.location} />
+    <App location={forecast.location} forecasts={forecast.forecasts} />
   </React.StrictMode>
 );

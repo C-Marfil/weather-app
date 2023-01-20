@@ -4,6 +4,7 @@ exports[`ForecastSummary renders the correct forecast for the day 1`] = `
 <DocumentFragment>
   <div
     class="forecast-summary"
+    data-testid="forecast-summary"
   >
     <div
       class="forecast-summary__date"
@@ -13,7 +14,7 @@ exports[`ForecastSummary renders the correct forecast for the day 1`] = `
     <div
       class="forecast-summary__temperature"
     >
-      12
+      22°C
     </div>
     <div
       class="forecast-summary__description"
