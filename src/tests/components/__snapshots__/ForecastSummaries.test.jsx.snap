@@ -12,7 +12,7 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       <div
         class="forecast-summary__date"
       >
-        1111111
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary__temperature"
@@ -26,8 +26,12 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       </div>
       <div
         class="forecast-summary__icon"
+        data-testid="forecast-icon"
       >
-        stubIcon1
+        <i
+          class="wi wi-day-sunny"
+          name="owm"
+        />
       </div>
     </div>
     <div
@@ -37,7 +41,7 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       <div
         class="forecast-summary__date"
       >
-        2222222
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary__temperature"
@@ -51,8 +55,12 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       </div>
       <div
         class="forecast-summary__icon"
+        data-testid="forecast-icon"
       >
-        stubIcon2
+        <i
+          class="wi wi-day-thunderstorm"
+          name="owm"
+        />
       </div>
     </div>
   </div>

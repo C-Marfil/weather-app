@@ -4,16 +4,16 @@ import ForecastSummary from "../../components/ForecastSummary";
 
 describe("ForecastSummary", () => {
   const validProps = {
-    date: 1111111,
+    date: 1525046400000,
     description: "Stub description",
-    icon: "stubIcon",
+    icon: "800",
     temperature: {
-      min: 12,
-      max: 22,
+      min: 4,
+      max: 11,
     },
   };
 
-  it("renders the correct forecast for the day", () => {
+  it("renders correctly", () => {
     const { asFragment } = render(
       <ForecastSummary
         date={validProps.date}
@@ -26,8 +26,8 @@ describe("ForecastSummary", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("renders correct values for props", () => {
-    const { getByText } = render(
+  it("it renders correct values for props", () => {
+    const { getByText, getByTestId } = render(
       <ForecastSummary
         date={validProps.date}
         description={validProps.description}
@@ -36,7 +36,7 @@ describe("ForecastSummary", () => {
       />
     );
 
-    expect(getByText("1111111")).toHaveAttribute(
+    expect(getByText("Mon Apr 30 2018")).toHaveAttribute(
       "class",
       "forecast-summary__date"
     );
@@ -44,11 +44,8 @@ describe("ForecastSummary", () => {
       "class",
       "forecast-summary__description"
     );
-    expect(getByText("stubIcon")).toHaveAttribute(
-      "class",
-      "forecast-summary__icon"
-    );
-    expect(getByText("22°C")).toHaveAttribute(
+    expect(getByTestId("forecast-icon")).toHaveClass("forecast-summary__icon");
+    expect(getByText("11°C")).toHaveAttribute(
       "class",
       "forecast-summary__temperature"
     );

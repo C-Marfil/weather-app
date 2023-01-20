@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ForecastSummary renders the correct forecast for the day 1`] = `
+exports[`ForecastSummary renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="forecast-summary"
@@ -9,12 +9,12 @@ exports[`ForecastSummary renders the correct forecast for the day 1`] = `
     <div
       class="forecast-summary__date"
     >
-      1111111
+      Mon Apr 30 2018
     </div>
     <div
       class="forecast-summary__temperature"
     >
-      22°C
+      11°C
     </div>
     <div
       class="forecast-summary__description"
@@ -23,8 +23,12 @@ exports[`ForecastSummary renders the correct forecast for the day 1`] = `
     </div>
     <div
       class="forecast-summary__icon"
+      data-testid="forecast-icon"
     >
-      stubIcon
+      <i
+        class="wi wi-day-sunny"
+        name="owm"
+      />
     </div>
   </div>
 </DocumentFragment>
