@@ -33,6 +33,11 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
           name="owm"
         />
       </div>
+      <button
+        type="button"
+      >
+        More details
+      </button>
     </div>
     <div
       class="forecast-summary"
@@ -62,6 +67,11 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
           name="owm"
         />
       </div>
+      <button
+        type="button"
+      >
+        More details
+      </button>
     </div>
   </div>
 </DocumentFragment>
