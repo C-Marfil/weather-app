@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import WeatherIcon from "react-icons-weather";
 
 function ForecastSummary(props) {
-  const { date, temperature, description, icon } = props;
+  const { date, temperature, description, icon, onSelect } = props;
   const formattedDate = new Date(date).toDateString();
 
   return (
@@ -17,6 +17,9 @@ function ForecastSummary(props) {
       <div className="forecast-summary__icon" data-testid="forecast-icon">
         <WeatherIcon name="owm" iconId={icon} />
       </div>
+      <button type="button" onClick={() => onSelect(date)}>
+        More details
+      </button>
     </div>
   );
 }
@@ -29,6 +32,7 @@ ForecastSummary.propTypes = {
     min: PropTypes.number,
     max: PropTypes.number,
   }).isRequired,
+  onSelect: PropTypes.func.isRequired,
 };
 
 export default ForecastSummary;
