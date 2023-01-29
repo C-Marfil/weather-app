@@ -4,6 +4,7 @@ import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
 import getForecast from "../requests/getForecast";
 import SearchForm from "./SearchForm";
+import Background from "./Background";
 import "../styles/App.css";
 
 const App = () => {
@@ -37,26 +38,34 @@ const App = () => {
   };
 
   return (
-    <div className="weather-app" id={selectedDescription}>
-      <LocationDetails
-        city={location.city}
-        country={location.country}
-        errorMessage={errorMessage}
+    <div className="weather-app">
+      <Background
+        className="background"
+        selectedDescription={selectedDescription}
       />
-      <SearchForm
-        searchText={searchText}
-        setSearchText={setSearchText}
-        onSubmit={handleCitySearch}
-      />
-      {!errorMessage && (
-        <>
-          <ForecastSummaries
-            forecasts={forecasts}
-            onForecastSelect={handleForecastSelect}
-          />
-          {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
-        </>
-      )}
+      <div className="nav">
+        <LocationDetails
+          city={location.city}
+          country={location.country}
+          errorMessage={errorMessage}
+        />
+        <SearchForm
+          searchText={searchText}
+          setSearchText={setSearchText}
+          onSubmit={handleCitySearch}
+        />
+        {!errorMessage && (
+          <>
+            <ForecastSummaries
+              forecasts={forecasts}
+              onForecastSelect={handleForecastSelect}
+            />
+            {selectedForecast && (
+              <ForecastDetails forecast={selectedForecast} />
+            )}
+          </>
+        )}
+      </div>
     </div>
   );
 };

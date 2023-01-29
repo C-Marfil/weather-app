@@ -1,9 +1,28 @@
 .weather-app {
-    margin: 0 20px;
+    position: absolute;
 }
 
+.nav {
+    z-index: 1;
+    margin-top: 25vh;
+    margin-left: 10vw;
+}
+
+.background {
+    margin-top: -3.2vh;
+    padding-bottom: 100vh;
+    padding-left: 100vw;
+    padding-top: 3vh;
+    position: absolute;
+    z-index: -1;
+}
+
+
 #Rain {
-    background-color: blue;
+    background-image: url("../images/rain.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
 }
 
 #welcome {
@@ -29,3 +48,4 @@
 #Sunny {
     background-color: darkgoldenrod;
 }
+
