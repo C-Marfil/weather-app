@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function ForecastDetails({ forecast }) {
+const ForecastDetails = ({ forecast }) => {
   const { date, temperature, wind, humidity } = forecast;
   const formattedDate = new Date(date).toDateString();
 
@@ -18,7 +18,7 @@ function ForecastDetails({ forecast }) {
       <div className="forecast-details__humidity">Humidity: {humidity}%</div>
     </div>
   );
-}
+};
 
 ForecastDetails.propTypes = {
   forecast: PropTypes.shape({

@@ -63,7 +63,7 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
         data-testid="forecast-icon"
       >
         <i
-          class="wi wi-day-thunderstorm"
+          class="wi wi-day-snow"
           name="owm"
         />
       </div>

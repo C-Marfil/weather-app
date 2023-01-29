@@ -1,3 +1,31 @@
 .weather-app {
     margin: 0 20px;
 }
+
+#Rain {
+    background-color: blue;
+}
+
+#welcome {
+    background-color: chartreuse;
+}
+
+#Clouds {
+    background-color: cadetblue;
+}
+
+#Clear {
+    background-color: aqua;
+}
+
+#Stormy {
+    background-color: yellow;
+}
+
+#Hazy {
+    background-color: coral;
+}
+
+#Sunny {
+    background-color: darkgoldenrod;
+}

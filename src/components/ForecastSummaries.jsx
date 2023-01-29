@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import ForecastSummary from "./ForecastSummary";
 import "../styles/ForecastSummaries.css";
 
-function ForecastSummaries({ forecasts, onForecastSelect }) {
+const ForecastSummaries = ({ forecasts, onForecastSelect }) => {
   return (
     <div className="forecast-summaries">
       {forecasts.map((forecast) => (
@@ -18,7 +18,7 @@ function ForecastSummaries({ forecasts, onForecastSelect }) {
       ))}
     </div>
   );
-}
+};
 
 ForecastSummaries.propTypes = {
   forecasts: PropTypes.arrayOf(
