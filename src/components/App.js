@@ -4,7 +4,8 @@ import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
 import getForecast from "../requests/getForecast";
 import SearchForm from "./SearchForm";
-import Background from "./Background";
+import Pomodoro from "./Pomodoro";
+import BackgroundGifs from "./BackgroundGifs";
 import "../styles/App.css";
 
 const App = () => {
@@ -39,8 +40,12 @@ const App = () => {
 
   return (
     <div className="weather-app">
-      <Background
+      <BackgroundGifs
         className="background"
+        selectedDescription={selectedDescription}
+      />
+      <Pomodoro
+        className="pomodoro"
         selectedDescription={selectedDescription}
       />
       <div className="nav">

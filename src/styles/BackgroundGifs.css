@@ -1,0 +1,43 @@
+.background-gif {
+    position: absolute;
+    margin-bottom: 100vh;
+    z-index: -1;
+    background-size: 150px;
+    width: 300px;
+    height: 100vh;
+}
+
+#Rain {
+    background-image: url("../images/rain.gif");
+    background-size: cover;
+    background-size: 150px;
+    width: 103vw;
+    height: 105vh;
+}
+
+#Clouds {
+    background-image: url("../images/clouds.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:blur(5px);
+    width: 103vw;
+    height: 105vh;
+}
+
+#Snow {
+    background-image: url("../images/snow.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:blur(5px);
+    width: 103vw;
+    height: 105vh;
+}
+
+#Clear {
+    background-image: url("../images/sunny.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:blur(5px);
+    width: 103vw;
+    height: 105vh;
+}
