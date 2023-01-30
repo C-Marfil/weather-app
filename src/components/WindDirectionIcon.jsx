@@ -15,7 +15,8 @@ const WindDirectionIcon = ({ direction }) => {
 
   if (direction === "ne") icon = ne;
   else if (direction === "n") icon = n;
-  else if (direction === "wnw" || direction === "nw") icon = nw;
+  else if (direction === "wnw" || direction === "nw" || direction === "nwn")
+    icon = nw;
   else if (direction === "w") icon = w;
   else if (direction === "ssw" || direction === "sw" || direction === "wsw")
     icon = sw;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App as asserted 1`] = `
+<DocumentFragment>
+  <div
+    class="weather-app"
+  >
+    <div
+      class="background-gif"
+      id="welcome"
+    />
+    <p
+      class="swipe-pomodoro"
+    >
+      Swipe Right for weather inspired
+    </p>
+    <div
+      class="pomodoro"
+    >
+      <div
+        id="video"
+        style="width: 100%; height: 100%;"
+      />
+    </div>
+    <div
+      class="nav"
+    >
+      <h1
+        class="location-details"
+      >
+        , 
+      </h1>
+      <div
+        class="search-form"
+      >
+        <input
+          class="search-box"
+          placeholder="Location"
+          type="text"
+          value=""
+        />
+        <button
+          class="search-button"
+          type="submit"
+        >
+          Set Location
+        </button>
+      </div>
+      <div
+        class="forecast-summaries"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

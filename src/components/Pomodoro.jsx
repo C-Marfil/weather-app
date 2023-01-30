@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from "react";
 import PropTypes from "prop-types";

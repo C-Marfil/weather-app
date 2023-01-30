@@ -16,18 +16,26 @@ exports[`Forecast Details Renders Forecast Details 1`] = `
       data-testid="ancestor"
     >
       <div
+        class="Max"
         data-testid="descendant"
       >
-        Max Temp: 33°C
+        33°C
       </div>
-      <div>
-        Min Temp: 22°C
+      <div
+        class="Min"
+      >
+         22°C
       </div>
     </div>
     <div
       class="forecast-details__wind"
     >
-      Wind: 30mph s
+      Wind: 30mph
+      <img
+        alt="wind-direction"
+        class="wind-icon"
+        src="s.png"
+      />
     </div>
     <div
       class="forecast-details__humidity"

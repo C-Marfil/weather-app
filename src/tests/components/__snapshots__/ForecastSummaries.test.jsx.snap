@@ -30,6 +30,7 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       >
         <i
           class="wi wi-day-sunny"
+          id="icon"
           name="owm"
         />
       </div>
@@ -64,6 +65,7 @@ exports[`ForecastSummaries  renders a list of ForecastSummary 1`] = `
       >
         <i
           class="wi wi-day-snow"
+          id="icon"
           name="owm"
         />
       </div>
