@@ -1,0 +1,9 @@
+.forecast-summary {
+    background-color: rgb(70, 56, 56);
+    color: #fff;
+    opacity: .5;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

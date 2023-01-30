@@ -1,0 +1,15 @@
+.search-form {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+.search-box {
+    background: #fff;
+    height: 1vh;
+    width: 8vw;
+    border-radius: 30px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+

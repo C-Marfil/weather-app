@@ -1,10 +1,12 @@
 .pomodoro {
     position: absolute;
-    aspect-ratio: 3, 3;
-    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
 }
 
 #video {
     position: absolute;
     size: 100vh;
+    margin-left: 100%;
 }

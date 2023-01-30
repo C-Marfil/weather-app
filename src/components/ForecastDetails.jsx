@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import WindDirectionIcon from "./WindDirectionIcon";
 
 const ForecastDetails = ({ forecast }) => {
   const { date, temperature, wind, humidity } = forecast;
@@ -13,7 +14,8 @@ const ForecastDetails = ({ forecast }) => {
         <div>Min Temp: {temperature.min}&deg;C</div>
       </div>
       <div className="forecast-details__wind">
-        Wind: {wind.speed}mph {wind.direction}
+        Wind: {wind.speed}mph
+        <WindDirectionIcon direction={wind.direction} />
       </div>
       <div className="forecast-details__humidity">Humidity: {humidity}%</div>
     </div>

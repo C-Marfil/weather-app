@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/media-has-caption */
 import React from "react";
 import PropTypes from "prop-types";
@@ -19,11 +20,11 @@ const Background = ({ selectedDescription }) => {
   else url = welcome;
 
   return (
-    <div className="background">
+    <div className="pomodoro">
       <ReactPlayer
         id="video"
         width="100%"
-        height="98%"
+        height="100%"
         playing
         muted
         controls

@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../styles/SearchForm.css";
 
 const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   const handleInputChange = (event) => {
@@ -9,6 +10,7 @@ const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   return (
     <div className="search-form">
       <input
+        className="search-box"
         placeholder="Change Location"
         type="text"
         onChange={handleInputChange}
