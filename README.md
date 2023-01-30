@@ -13,6 +13,7 @@ This project is my first encounter with React. A simple weather App that allows 
 ### Planning & Development
 ### React Player
 ### Set Up
+### TODO
 ### Test Suites
 ### Credits
 
