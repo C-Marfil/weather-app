@@ -1,0 +1,21 @@
+.forecast-details {
+    background-color: rgb(70, 56, 56);
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-right: 33vw;
+    margin-left: 34vw;
+    margin-top: 5vh;
+}
+
+.Max::before {
+    content:"⬆️ ";
+}
+
+.Min::before {
+    content:"⬇️ ";
+}

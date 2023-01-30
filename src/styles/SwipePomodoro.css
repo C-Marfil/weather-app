@@ -1,0 +1,11 @@
+.swipe-pomodoro {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 4%;
+    color: white;
+    z-index: 1;
+}
+
+.swipe-pomodoro::after {
+    content:" ➡️➡️ 🍅";
+}

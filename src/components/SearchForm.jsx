@@ -11,13 +11,13 @@ const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
     <div className="search-form">
       <input
         className="search-box"
-        placeholder="Change Location"
+        placeholder="Location"
         type="text"
         onChange={handleInputChange}
         value={searchText}
       />
-      <button type="submit" onClick={onSubmit}>
-        Location search
+      <button className="search-button" type="submit" onClick={onSubmit}>
+        Set Location
       </button>
     </div>
   );

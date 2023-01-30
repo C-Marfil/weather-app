@@ -1,7 +1,8 @@
 .search-form {
     display: flex;
-    flex-direction: column;;
+    flex-direction: row;
     align-items: center;
+    margin-bottom: 3%;
 }
 
 .search-box {
@@ -13,3 +14,18 @@
     cursor: pointer;
 }
 
+.search-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #6E6D70;
+  opacity: 0.8;
+}
+
+.search-button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(241, 242, 244, 0.5);
+  outline: 0;
+}

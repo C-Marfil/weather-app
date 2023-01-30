@@ -1,16 +1,14 @@
 .weather-app {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    z-index: -1;
+    z-index: 1;
 }
 
 .nav {
-    margin-left: 0vw;
-    height: 66vh;
+    height: 65vh;
     width: 84vw;
     z-index: 1;
-    align-self: center;
+    margin-left: 5%;
     color: white;
 }

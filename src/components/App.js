@@ -5,6 +5,7 @@ import ForecastDetails from "./ForecastDetails";
 import getForecast from "../requests/getForecast";
 import SearchForm from "./SearchForm";
 import Pomodoro from "./Pomodoro";
+import SwipePomodoro from "./SwipePomodoro";
 import BackgroundGifs from "./BackgroundGifs";
 import "../styles/App.css";
 
@@ -44,6 +45,7 @@ const App = () => {
         className="background"
         selectedDescription={selectedDescription}
       />
+      <SwipePomodoro />
       <Pomodoro
         className="pomodoro"
         selectedDescription={selectedDescription}
