@@ -10,7 +10,13 @@ describe("Search Form feature", () => {
   };
 
   it("Snapshot test", () => {
-    const { asFragment } = render(<SearchForm />);
+    const { asFragment } = render(
+      <SearchForm
+        searchText={validProps.searchText}
+        setSearchText={validProps.setSearchText}
+        onSubmit={validProps.handleCitySearch}
+      />
+    );
 
     expect(asFragment()).toMatchSnapshot();
   });
