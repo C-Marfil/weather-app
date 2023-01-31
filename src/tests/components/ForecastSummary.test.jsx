@@ -11,7 +11,7 @@ describe("ForecastSummary", () => {
       min: 4,
       max: 11,
     },
-    onSelect: jest.fn(),
+    onSelect: () => {},
   };
 
   it("renders correctly", () => {

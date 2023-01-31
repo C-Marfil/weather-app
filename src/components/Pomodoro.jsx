@@ -2,6 +2,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "../styles/Pomodoro.css";
+// eslint-disable-next-line import/no-extraneous-dependencies
 import ReactPlayer from "react-player";
 
 const rain = "https://youtu.be/nF1fSKEiyA0";

@@ -56,7 +56,9 @@ To test the functionality and components of the app, I used React Test Library -
 
 <details>
 <summary>Tests</summary>
+
 ![Tests](./src/images/tests310123.png)
+
 </details>
 
 ### TODO
