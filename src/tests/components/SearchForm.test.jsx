@@ -5,8 +5,8 @@ import SearchForm from "../../components/SearchForm";
 describe("Search Form feature", () => {
   const validProps = {
     searchText: "Liverpool",
-    setSearchText: () => {},
-    onSubmit: () => {},
+    setSearchText: jest.fn(),
+    onSubmit: jest.fn(),
   };
 
   it("Snapshot test", () => {
@@ -14,7 +14,7 @@ describe("Search Form feature", () => {
       <SearchForm
         searchText={validProps.searchText}
         setSearchText={validProps.setSearchText}
-        onSubmit={validProps.handleCitySearch}
+        onSubmit={validProps.onSubmit}
       />
     );
 
@@ -26,7 +26,7 @@ describe("Search Form feature", () => {
       <SearchForm
         searchText={validProps.searchText}
         setSearchText={validProps.setSearchText}
-        onSubmit={validProps.handleCitySearch}
+        onSubmit={validProps.onSubmit}
       />
     );
 

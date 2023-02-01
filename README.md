@@ -1,18 +1,17 @@
-&nbsp;
 
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Weather App + Pomodoro Tool 🍅
+# <div align="center">Weather App + Pomodoro Tool 🍅</div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**An exercise on React 🌞 🌧️**
+<div align="center">**An exercise on React 🌞 🌧️**</div>
 
 ### Objectives
 
-This project is my first encounter with React. A simple weather App that allows you to fetch the upcoming forecast for any city in Great Britain. It will show you a general preview, and you can choose to recieve more detailed information on any specific day. To make it more functional, I added a special feature, but more about 🍅🍅 below!
+This project is my first encounter with React. A simple weather App that allows you to fetch the upcoming forecast for any city in Great Britain. It will show you a general preview, and you can choose to receive more detailed information on any specific day. To make it more functional, I added a special feature, but more about 🍅🍅 below!
 
 ![Snapshot](./src/images/snapshot.png)
 
 ### Planning & Development
 
-Trough this project I've focussed more in implementing complex components and refactoring the code rather than the design of it. The main objective of the project was to send a GET request to an external API that would feed weather forecast to our app. To achieve this I used the following:
+Through this project I've focused more on implementing complex components and refactoring the code rather than the design of it. The main objective of the project was to send a GET request to an external API that would feed weather forecast to our app. To achieve this I used the following:
 
 - React Components,
 - Axios (To handle the requests to the external API),
@@ -22,7 +21,7 @@ Trough this project I've focussed more in implementing complex components and re
 
 ### React Player 🍅
 
-Through this process I let the user experience to lead my decisions - reflecting on the components the users would see, interact with and need to improve their journey through the app. I imagined users turning on the app, and how the weather outside would affect their mood - maybe they are trying to get some work done, or are thinking about their weekend plans... 
+Through this process I let the user experience lead my decisions - reflecting on the components the users would see, interact with and need to improve their journey through the app. I imagined users turning on the app, and how the weather outside would affect their mood - maybe they are trying to get some work done, or are thinking about their weekend plans... 
 
 Something that I like to do to stay focussed in front of the computer through large periods of time is to play Pomodoro YouTube videos that include ambience sound reflecting the weather outside. I introduced this feature where users can also access Pomodoro videos depending on the weather description of the forecast selected.
 

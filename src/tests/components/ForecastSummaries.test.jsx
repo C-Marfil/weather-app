@@ -24,12 +24,15 @@ describe("ForecastSummaries ", () => {
         },
       },
     ],
-    onForecastSelect: () => {},
+    onForecastSelect: jest.fn(),
   };
 
   it("renders a list of ForecastSummary", () => {
     const { asFragment } = render(
-      <ForecastSummaries forecasts={validProps.forecasts} />
+      <ForecastSummaries
+        forecasts={validProps.forecasts}
+        onForecastSelect={validProps.onForecastSelect}
+      />
     );
     expect(asFragment()).toMatchSnapshot();
   });

@@ -11,10 +11,10 @@ const ForecastDetails = ({ forecast }) => {
     <div className="forecast-details" data-testid="forecast-details">
       <div className="forecast-details__date">{formattedDate}</div>
       <div className="forecast-details__temperature" data-testid="ancestor">
-        <div className="Max" data-testid="descendant">
+        <div className="max" data-testid="descendant">
           {temperature.max}&deg;C
         </div>
-        <div className="Min"> {temperature.min}&deg;C</div>
+        <div className="min"> {temperature.min}&deg;C</div>
       </div>
       <div className="forecast-details__wind">
         Wind: {wind.speed}mph

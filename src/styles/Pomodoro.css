@@ -1,12 +1,12 @@
 .pomodoro {
-    position: absolute;
-    width: 100vw;
-    height: 105vh;
-    z-index: 1;
+  position: absolute;
+  width: 100vw;
+  height: 105vh;
+  z-index: 1;
 }
 
 #video {
-    position: absolute;
-    size: 100vh;
-    margin-left: 100%;
+  position: absolute;
+  size: 100vh;
+  margin-left: 100%;
 }

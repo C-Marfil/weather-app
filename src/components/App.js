@@ -21,7 +21,13 @@ const App = () => {
   );
 
   useEffect(() => {
-    getForecast(setSelectedDate, setForecasts, setLocation);
+    getForecast(
+      setSelectedDate,
+      setForecasts,
+      setLocation,
+      "",
+      setErrorMessage
+    );
   }, []);
 
   const handleForecastSelect = (date, description) => {
