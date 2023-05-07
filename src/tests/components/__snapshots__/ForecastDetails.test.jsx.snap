@@ -16,13 +16,13 @@ exports[`Forecast Details Renders Forecast Details 1`] = `
       data-testid="ancestor"
     >
       <div
-        class="Max"
+        class="max"
         data-testid="descendant"
       >
         33°C
       </div>
       <div
-        class="Min"
+        class="min"
       >
          22°C
       </div>

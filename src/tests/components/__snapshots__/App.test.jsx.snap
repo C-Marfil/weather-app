@@ -12,7 +12,7 @@ exports[`App renders App as asserted 1`] = `
     <p
       class="swipe-pomodoro"
     >
-      Swipe Right for weather inspired
+      Swipe Right for weather
     </p>
     <div
       class="pomodoro"
