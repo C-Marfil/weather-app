@@ -4,7 +4,7 @@ import "../styles/SwipePomodoro.css";
 const SwipePomodoro = () => {
   return (
     <>
-      <p className="swipe-pomodoro">Swipe Right for weather</p>
+      <p className="swipe-pomodoro">Swipe Right for</p>
     </>
   );
 };
